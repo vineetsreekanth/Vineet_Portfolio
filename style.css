@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 3, 3);
+    font-family: "Anton", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+#header>.navbar>ul {
+    display: flex;
+    align-content: space-evenly;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 0 25px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin-right: 15px;
+    padding: 50px;
+}
+
+.image img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.role h2 {
+    margin: 0;
+    /* font-size: 20px; */
+}
+
+.name {
+    font-size: 75px;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+section {
+    align-items: center;
+    width: 90%;
+    height: 97vh;
+    padding: 20px;
+}
+
+#home {
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.button {
+    padding: 15px 60px;
+    background-color: white;
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.icons img {
+    width: 40px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+header {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 10px 0 0 20px;
+}
+
+.nav-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+section h1 {
+    font-size: 45px;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.about p,
+.education p {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.edu-blocks {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.block {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 450px;
+    height: 180px;
+    border-radius: 15px;
+    margin: 10px 10px;
+    padding: 20px;
+    line-height: 0.5;
+}
+
+.edu-blocks>.block img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 20px;
+    margin-right: 22px;
+}
+.edu-blocks>.block h4 {
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+.edu-blocks>.block p {
+    margin: 0;
+    line-height: 0;
+}
+
+.edu-blocks>.block {
+    text-align: start;
+}
+
+#puc {
+    position: relative;
+    left: 450px;
+}
+
+#degree {
+    position: relative;
+    left: 450px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 40px;
+    width:500px;
+    height: 80vh;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    text-align: left;
+    line-height: 40px;
+}
+.form h5{
+    margin: 0 0 12px 15px;
+    font-size: 40px;
+}
+#text-area{
+    /* width: 200px; */
+    height: 150px;
+    margin: 0 0 15px;
+}
+button[type="submit"] {
+    background-color:white;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+.projects{
+    width: 100%;
+}
+.project{
+    display: flex;
+    align-content: last baseline;
+    justify-content: space-evenly;
+}
+.project-blocks{
+    color: black;
+    background-color: white;
+    margin: 10px;
+    width: 400px;
+    height: 480px;
+    padding: 20px;
+}
+.inputs{
+    border-radius: 5px;
+    padding: 10px;
+}
+.project-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+.project-image img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.project-image{
+    margin-top: 20px;
+    height: 400px;
+}
+.project-buttons{
+    display: flex;
+    color: white;
+}
+.projectbuttons{
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+.buttons, .projectbuttons:hover{
+    cursor: pointer;
+}
+.calander{
+    display: flex;
+    /* margin-right: 10px; */
+}
